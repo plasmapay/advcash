@@ -1,4 +1,4 @@
-import soap from 'soap-as-promised'
+import soap from '@plasmapay/soap-as-promised'
 
 export default async advcashSoapUrl => {
     const soapClient = await soap.createClient(advcashSoapUrl, {

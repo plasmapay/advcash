@@ -1,6 +1,6 @@
 {
   "name": "@plasmapay/advcash",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "node.js wrapper for advcash cryptocurrency exchange",
   "main": "lib/index.js",
   "scripts": {

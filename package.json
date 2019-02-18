@@ -1,6 +1,6 @@
 {
-  "name": "advcash",
-  "version": "1.0.7",
+  "name": "@plasmapay/advcash",
+  "version": "1.0.8",
   "description": "node.js wrapper for advcash cryptocurrency exchange",
   "main": "lib/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "dependencies": {
     "moment-timezone": "^0.5.13",
     "sha.js": "^2.4.8",
-    "soap-as-promised": "^1.19.0"
+    "@plasmapay/soap-as-promised": "^1.25.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

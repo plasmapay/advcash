@@ -90,6 +90,11 @@ export default async ({ password, apiName, accountEmail, advcashSoapUrl = 'https
             arg1
         }),
 
+        sendMoneyToBankCard: (arg1) => advcashClient("sendMoneyToBankCard", {
+            arg0,
+            arg1
+        }),
+
         sendMoneyToEcurrency: (arg1) => advcashClient("sendMoneyToEcurrency", {
             arg0,
             arg1
